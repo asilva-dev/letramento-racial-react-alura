@@ -2,7 +2,7 @@
 
 Projeto do curso de React com js da Alura.
 
-Quer ver o projeto funcionando? [Clique aqui](https://organo-react-d9821hmsg-mandypry.vercel.app/).
+Quer ver o projeto funcionando? [Clique aqui](organo-react-by-alura.vercel.app).
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
