@@ -192,6 +192,10 @@ function App() {
 
   const [colaboradores, setColaboradores] = useState(inicial);
 
+  function deletarColaborador() {
+    console.log('Deletando um colaborador');
+  }
+
   return (
     <div>
       <Banner />
@@ -210,6 +214,7 @@ function App() {
             colaboradores={colaboradores.filter(
               (colaborador) => colaborador.time === time.nome,
             )}
+            aoDeletar={deletarColaborador}
           />
         ))}
       </section>
