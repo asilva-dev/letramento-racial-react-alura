@@ -1,8 +1,8 @@
-# Organo
+# Letramento Racial
 
 Projeto da formação de React com js da [Alura](https://www.alura.com.br/formacao-react-ts).
 
-Quer ver o projeto funcionando? [Clique aqui](https://organo-react-by-alura.vercel.app/).
+Quer ver o projeto funcionando? [Clique aqui](https://letramentoAmanda-react-by-alura.vercel.app/).
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

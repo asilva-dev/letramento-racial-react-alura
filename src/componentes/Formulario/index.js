@@ -30,7 +30,7 @@ const Formulario = ({ aoCadastrar, times, cadastrarTime }) => {
   return (
     <section className="formulario-container">
       <form className="formulario" onSubmit={aoSubmeter}>
-        <h2>Preencha os dados para criar o card do colaborador.</h2>
+        <h2>Preencha os dados para criar o card da sua indicação.</h2>
         <Campo
           obrigatorio={true}
           label="Nome"
@@ -69,7 +69,7 @@ const Formulario = ({ aoCadastrar, times, cadastrarTime }) => {
           setCorTime('');
         }}
       >
-        <h2>Preencha os dados para criar um novo time.</h2>
+        <h2>Preencha os dados para criar uma nova categoria.</h2>
         <Campo
           obrigatorio
           label="Nome"
