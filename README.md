@@ -4,6 +4,7 @@ Projeto da formação de React com js da [Alura](https://www.alura.com.br/formac
 
 Quer ver o projeto funcionando? [Clique aqui](https://letramentoAmanda-react-by-alura.vercel.app/).
 
+[Paleta de Cores: ](https://www.colourlovers.com/palette/89236/Afrikaner)
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Scripts Disponíveis
