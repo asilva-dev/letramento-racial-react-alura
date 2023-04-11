@@ -1,12 +1,18 @@
 # Getting Started with Create React App
 
-Projeto do curso de React com js da Alura.
+Projeto da formação de React com js da [Alura](https://www.alura.com.br/formacao-react-ts).
 
 Quer ver o projeto funcionando? [Clique aqui](organo-react-by-alura.vercel.app).
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Scripts Disponíveis
+
+## Cursos da formação já realizados
+
+React: desenvolvendo com javascript.
+
+React: como os componentes funcionam.
 
 No diretório do projeto, você pode executar:
 
