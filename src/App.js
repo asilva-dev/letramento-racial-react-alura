@@ -3,34 +3,42 @@ import Banner from './componentes/Banner';
 import Formulario from './componentes/Formulario';
 import Rodape from './componentes/Rodape';
 import Time from './componentes/Time';
+import { v4 as uuidv4 } from 'uuid';
 
 function App() {
   const [times, setTimes] = useState([
     {
+      id: uuidv4(),
       nome: 'Programação',
       cor: '#57C278',
     },
     {
+      id: uuidv4(),
       nome: 'Front-End',
       cor: '#82CFFA',
     },
     {
+      id: uuidv4(),
       nome: 'Data Science',
       cor: '#A6D157',
     },
     {
+      id: uuidv4(),
       nome: 'Devops',
       cor: '#E06B69',
     },
     {
+      id: uuidv4(),
       nome: 'UX e Design',
       cor: '#DB6EBF',
     },
     {
+      id: uuidv4(),
       nome: 'Mobile',
       cor: '#FFBA05',
     },
     {
+      id: uuidv4(),
       nome: 'Inovação e Gestão',
       cor: '#FF8A29',
     },
@@ -38,144 +46,168 @@ function App() {
 
   const inicial = [
     {
+      id: uuidv4(),
       nome: 'AMANDA SILVA',
       cargo: 'Desenvolvedora de front-end e instrutora',
       imagem: 'https://github.com/asilvaolabi.png',
       time: times[0].nome,
     },
     {
+      id: uuidv4(),
       nome: 'SIMARA CONCEICAO',
       cargo: 'Engenheira de Software',
       imagem: 'https://github.com/simaraconceicao.png',
       time: times[0].nome,
     },
     {
+      id: uuidv4(),
       nome: 'MARYLLY SILVA',
       cargo: 'System Architect',
       imagem: ' https://github.com/marylly.png',
       time: times[0].nome,
     },
     {
+      id: uuidv4(),
       nome: 'LISANDRA CRUZ',
       cargo: 'Deva front-end',
       imagem: 'https://github.com/lisandrascruz.png',
       time: times[0].nome,
     },
     {
+      id: uuidv4(),
       nome: 'AMANDA SILVA',
       cargo: 'Desenvolvedora de front-end e instrutora',
       imagem: 'https://github.com/asilvaolabi.png',
       time: times[1].nome,
     },
     {
+      id: uuidv4(),
       nome: 'SIMARA CONCEICAO',
       cargo: 'Engenheira de Software',
       imagem: 'https://github.com/simaraconceicao.png',
       time: times[1].nome,
     },
     {
+      id: uuidv4(),
       nome: 'MARYLLY SILVA',
       cargo: 'System Architect',
       imagem: ' https://github.com/marylly.png',
       time: times[1].nome,
     },
     {
+      id: uuidv4(),
       nome: 'LISANDRA CRUZ',
       cargo: 'Deva front-end',
       imagem: 'https://github.com/lisandrascruz.png',
       time: times[1].nome,
     },
     {
+      id: uuidv4(),
       nome: 'AMANDA SILVA',
       cargo: 'Desenvolvedora de front-end e instrutora',
       imagem: 'https://github.com/asilvaolabi.png',
       time: times[2].nome,
     },
     {
+      id: uuidv4(),
       nome: 'SIMARA CONCEICAO',
       cargo: 'Engenheira de Software',
       imagem: 'https://github.com/simaraconceicao.png',
       time: times[2].nome,
     },
     {
+      id: uuidv4(),
       nome: 'MARYLLY SILVA',
       cargo: 'System Architect',
       imagem: ' https://github.com/marylly.png',
       time: times[2].nome,
     },
     {
+      id: uuidv4(),
       nome: 'LISANDRA CRUZ',
       cargo: 'Deva front-end',
       imagem: 'https://github.com/lisandrascruz.png',
       time: times[2].nome,
     },
     {
+      id: uuidv4(),
       nome: 'AMANDA SILVA',
       cargo: 'Desenvolvedora de front-end e instrutora',
       imagem: 'https://github.com/asilvaolabi.png',
       time: times[3].nome,
     },
     {
+      id: uuidv4(),
       nome: 'SIMARA CONCEICAO',
       cargo: 'Engenheira de Software',
       imagem: 'https://github.com/simaraconceicao.png',
       time: times[3].nome,
     },
     {
+      id: uuidv4(),
       nome: 'MARYLLY SILVA',
       cargo: 'System Architect',
       imagem: ' https://github.com/marylly.png',
       time: times[3].nome,
     },
     {
+      id: uuidv4(),
       nome: 'LISANDRA CRUZ',
       cargo: 'Deva front-end',
       imagem: 'https://github.com/lisandrascruz.png',
       time: times[3].nome,
     },
     {
+      id: uuidv4(),
       nome: 'AMANDA SILVA',
       cargo: 'Desenvolvedora de front-end e instrutora',
       imagem: 'https://github.com/asilvaolabi.png',
       time: times[4].nome,
     },
     {
+      id: uuidv4(),
       nome: 'SIMARA CONCEICAO',
       cargo: 'Engenheira de Software',
       imagem: 'https://github.com/simaraconceicao.png',
       time: times[4].nome,
     },
     {
+      id: uuidv4(),
       nome: 'MARYLLY SILVA',
       cargo: 'System Architect',
       imagem: ' https://github.com/marylly.png',
       time: times[4].nome,
     },
     {
+      id: uuidv4(),
       nome: 'LISANDRA CRUZ',
       cargo: 'Deva front-end',
       imagem: 'https://github.com/lisandrascruz.png',
       time: times[4].nome,
     },
     {
+      id: uuidv4(),
       nome: 'AMANDA SILVA',
       cargo: 'Desenvolvedora de front-end e instrutora',
       imagem: 'https://github.com/asilvaolabi.png',
       time: times[5].nome,
     },
     {
+      id: uuidv4(),
       nome: 'SIMARA CONCEICAO',
       cargo: 'Engenheira de Software',
       imagem: 'https://github.com/simaraconceicao.png',
       time: times[5].nome,
     },
     {
+      id: uuidv4(),
       nome: 'MARYLLY SILVA',
       cargo: 'System Architect',
       imagem: ' https://github.com/marylly.png',
       time: times[5].nome,
     },
     {
+      id: uuidv4(),
       nome: 'LISANDRA CRUZ',
       cargo: 'Deva front-end',
       imagem: 'https://github.com/lisandrascruz.png',
@@ -189,10 +221,10 @@ function App() {
     console.log('Deletando um colaborador');
   }
 
-  function mudarCorDoTime(cor, nome) {
+  function mudarCorDoTime(cor, id) {
     setTimes(
       times.map((time) => {
-        if (time.nome === nome) time.cor = cor;
+        if (time.id === id) time.cor = cor;
         return time;
       }),
     );
