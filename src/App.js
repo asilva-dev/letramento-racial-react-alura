@@ -47,6 +47,7 @@ function App() {
   const inicial = [
     {
       id: uuidv4(),
+      favorito: false,
       nome: 'AMANDA SILVA',
       cargo: 'Desenvolvedora de front-end e instrutora',
       imagem: 'https://github.com/asilvaolabi.png',
@@ -54,6 +55,7 @@ function App() {
     },
     {
       id: uuidv4(),
+      favorito: false,
       nome: 'SIMARA CONCEICAO',
       cargo: 'Engenheira de Software',
       imagem: 'https://github.com/simaraconceicao.png',
@@ -61,6 +63,7 @@ function App() {
     },
     {
       id: uuidv4(),
+      favorito: false,
       nome: 'MARYLLY SILVA',
       cargo: 'System Architect',
       imagem: ' https://github.com/marylly.png',
@@ -68,6 +71,7 @@ function App() {
     },
     {
       id: uuidv4(),
+      favorito: false,
       nome: 'LISANDRA CRUZ',
       cargo: 'Deva front-end',
       imagem: 'https://github.com/lisandrascruz.png',
@@ -75,6 +79,7 @@ function App() {
     },
     {
       id: uuidv4(),
+      favorito: false,
       nome: 'AMANDA SILVA',
       cargo: 'Desenvolvedora de front-end e instrutora',
       imagem: 'https://github.com/asilvaolabi.png',
@@ -82,6 +87,7 @@ function App() {
     },
     {
       id: uuidv4(),
+      favorito: false,
       nome: 'SIMARA CONCEICAO',
       cargo: 'Engenheira de Software',
       imagem: 'https://github.com/simaraconceicao.png',
@@ -89,6 +95,7 @@ function App() {
     },
     {
       id: uuidv4(),
+      favorito: false,
       nome: 'MARYLLY SILVA',
       cargo: 'System Architect',
       imagem: ' https://github.com/marylly.png',
@@ -96,6 +103,7 @@ function App() {
     },
     {
       id: uuidv4(),
+      favorito: false,
       nome: 'LISANDRA CRUZ',
       cargo: 'Deva front-end',
       imagem: 'https://github.com/lisandrascruz.png',
@@ -103,6 +111,7 @@ function App() {
     },
     {
       id: uuidv4(),
+      favorito: false,
       nome: 'AMANDA SILVA',
       cargo: 'Desenvolvedora de front-end e instrutora',
       imagem: 'https://github.com/asilvaolabi.png',
@@ -110,6 +119,7 @@ function App() {
     },
     {
       id: uuidv4(),
+      favorito: false,
       nome: 'SIMARA CONCEICAO',
       cargo: 'Engenheira de Software',
       imagem: 'https://github.com/simaraconceicao.png',
@@ -117,6 +127,7 @@ function App() {
     },
     {
       id: uuidv4(),
+      favorito: false,
       nome: 'MARYLLY SILVA',
       cargo: 'System Architect',
       imagem: ' https://github.com/marylly.png',
@@ -124,6 +135,7 @@ function App() {
     },
     {
       id: uuidv4(),
+      favorito: false,
       nome: 'LISANDRA CRUZ',
       cargo: 'Deva front-end',
       imagem: 'https://github.com/lisandrascruz.png',
@@ -131,6 +143,7 @@ function App() {
     },
     {
       id: uuidv4(),
+      favorito: false,
       nome: 'AMANDA SILVA',
       cargo: 'Desenvolvedora de front-end e instrutora',
       imagem: 'https://github.com/asilvaolabi.png',
@@ -138,6 +151,7 @@ function App() {
     },
     {
       id: uuidv4(),
+      favorito: false,
       nome: 'SIMARA CONCEICAO',
       cargo: 'Engenheira de Software',
       imagem: 'https://github.com/simaraconceicao.png',
@@ -145,6 +159,7 @@ function App() {
     },
     {
       id: uuidv4(),
+      favorito: false,
       nome: 'MARYLLY SILVA',
       cargo: 'System Architect',
       imagem: ' https://github.com/marylly.png',
@@ -152,6 +167,7 @@ function App() {
     },
     {
       id: uuidv4(),
+      favorito: false,
       nome: 'LISANDRA CRUZ',
       cargo: 'Deva front-end',
       imagem: 'https://github.com/lisandrascruz.png',
@@ -159,6 +175,7 @@ function App() {
     },
     {
       id: uuidv4(),
+      favorito: false,
       nome: 'AMANDA SILVA',
       cargo: 'Desenvolvedora de front-end e instrutora',
       imagem: 'https://github.com/asilvaolabi.png',
@@ -166,6 +183,7 @@ function App() {
     },
     {
       id: uuidv4(),
+      favorito: false,
       nome: 'SIMARA CONCEICAO',
       cargo: 'Engenheira de Software',
       imagem: 'https://github.com/simaraconceicao.png',
@@ -173,6 +191,7 @@ function App() {
     },
     {
       id: uuidv4(),
+      favorito: false,
       nome: 'MARYLLY SILVA',
       cargo: 'System Architect',
       imagem: ' https://github.com/marylly.png',
@@ -180,6 +199,7 @@ function App() {
     },
     {
       id: uuidv4(),
+      favorito: false,
       nome: 'LISANDRA CRUZ',
       cargo: 'Deva front-end',
       imagem: 'https://github.com/lisandrascruz.png',
@@ -187,6 +207,7 @@ function App() {
     },
     {
       id: uuidv4(),
+      favorito: false,
       nome: 'AMANDA SILVA',
       cargo: 'Desenvolvedora de front-end e instrutora',
       imagem: 'https://github.com/asilvaolabi.png',
@@ -194,6 +215,7 @@ function App() {
     },
     {
       id: uuidv4(),
+      favorito: false,
       nome: 'SIMARA CONCEICAO',
       cargo: 'Engenheira de Software',
       imagem: 'https://github.com/simaraconceicao.png',
@@ -201,6 +223,7 @@ function App() {
     },
     {
       id: uuidv4(),
+      favorito: false,
       nome: 'MARYLLY SILVA',
       cargo: 'System Architect',
       imagem: ' https://github.com/marylly.png',
@@ -208,6 +231,7 @@ function App() {
     },
     {
       id: uuidv4(),
+      favorito: false,
       nome: 'LISANDRA CRUZ',
       cargo: 'Deva front-end',
       imagem: 'https://github.com/lisandrascruz.png',
@@ -236,6 +260,15 @@ function App() {
     setTimes([...times, { ...novoTime, id: uuidv4() }]);
   }
 
+  function resolverFavorito(id) {
+    setColaboradores(
+      colaboradores.map((colaborador) => {
+        if (colaborador.id === id) colaborador.favorito = !colaborador.favorito;
+        return colaborador;
+      }),
+    );
+  }
+
   return (
     <div>
       <Banner />
@@ -250,6 +283,7 @@ function App() {
         <h1>Minha organização</h1>
         {times.map((time, indice) => (
           <Time
+            aoFavoritar={resolverFavorito}
             mudarCor={mudarCorDoTime}
             key={indice}
             time={time}
