@@ -16,7 +16,13 @@ React: como os componentes funcionam.
 
 ## Scripts Disponíveis
 
-No diretório do projeto, você pode executar:
+Depois de clonado, no diretório do projeto, você precisa executar:
+
+Para instalar as dependências:
+
+### `npm install`
+
+Para subir o projeto:
 
 ### `npm start`
 
